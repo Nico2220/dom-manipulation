@@ -1,3 +1,20 @@
-body {
-  background-color: red;
+#board {
+  width: 280px;
+  min-height: 450px;
+  border-radius: 10px;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+.game-square {
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  vertical-align: top;
+}
+
+#restart-button {
+  display: none;
 }
