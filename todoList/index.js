@@ -2,7 +2,7 @@ const inputBox = document.getElementById("todo-input");
 const addButton = document.getElementById("add-button");
 const lists = document.getElementById("todo-list");
 
-inputBox.addEventListener("change", (e) => handleChange(e));
+inputBox.addEventListener("input", (e) => handleChange(e));
 addButton.addEventListener("click", addTodo);
 
 function handleChange(e) {
